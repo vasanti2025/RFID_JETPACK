@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_inventory_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/inventory_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_setting_svg_rfid.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/setting_svg_rfid.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_stock_transfer_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/stock_transfer_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_report_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/report_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_invoice_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/invoice_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_estimate_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/estimate_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_order_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/order_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_quotation_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/quotation_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_samplein_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/samplein_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_product_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/product_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/xml_backup_rules.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_logout.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/logout.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_home_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/home_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_search_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/search_svg.xml"
+    },
+    {
+        "merged": "com.loyalstring.rfid.app-debug-48:/drawable_sampleout_svg.xml.flat",
+        "source": "com.loyalstring.rfid.app-main-50:/drawable/sampleout_svg.xml"
+    }
+]

@@ -1,5 +1,6 @@
 package com.loyalstring.rfid.ui.screens
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -9,6 +10,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
@@ -32,7 +34,7 @@ fun AppDrawer() {
                 tonalElevation = 8.dp,
                 shape = RoundedCornerShape(topEnd = 24.dp, bottomEnd = 24.dp),
                 modifier = Modifier
-                    .width(280.dp)
+                    .width(250.dp)
                     .fillMaxHeight()
             ) {
                 Column(
@@ -40,15 +42,19 @@ fun AppDrawer() {
                         .fillMaxSize()
                         .verticalScroll(rememberScrollState()) // ✅ Make entire Drawer scrollable
                 ) {
-                    Text(
-                        text = "Sparkle RFID",
-                        style = MaterialTheme.typography.titleLarge,
-                        color = Color.Red,
-                        fontSize = 22.sp,
+                    Box(
                         modifier = Modifier
-                            .padding(start = 16.dp, top = 16.dp, bottom = 8.dp)
-                    )
-
+                            .fillMaxWidth() // Ensures the Box takes up the full width
+                            .padding(start = 8.dp, top = 16.dp, bottom = 8.dp) // Adds padding to the Box
+                            .height(30.dp) // Optional: You can set a specific height or remove this if you want it to adjust to the image's size
+                    ) {
+                        Image(
+                            painter = painterResource(id = R.drawable.drawer_icon), // Replace with your actual image name
+                            contentDescription = "Sparkle RFID Logo",
+                            modifier = Modifier
+                                .align(Alignment.Center) // Centers the image within the Box
+                        )
+                    }
                     Divider()
 
                     DrawerItemList()

@@ -2,4 +2,6 @@
 <resources>
 
     <style name="Theme.RFID_GUN" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.RFID_GUN_NO_ACTION" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
 </resources>

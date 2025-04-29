@@ -31,6 +31,7 @@ fun AppDrawer() {
         drawerState = drawerState,
         drawerContent = {
             Surface(
+                color = Color.White,
                 tonalElevation = 8.dp,
                 shape = RoundedCornerShape(topEnd = 24.dp, bottomEnd = 24.dp),
                 modifier = Modifier
@@ -82,7 +83,7 @@ fun AppDrawer() {
                 )
             }
         ) { padding ->
-            HomeScreenContent(modifier = Modifier.padding(padding))
+            HomeScreenContentNew(modifier = Modifier.padding(padding))
         }
     }
 }

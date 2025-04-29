@@ -44,7 +44,7 @@ import com.loyalstring.rfid.ui.utils.BackgroundGradient
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeScreenContent(modifier: Modifier = Modifier) {
+fun HomeScreenContentNew(modifier: Modifier = Modifier) {
     Scaffold(
         topBar = {
             Surface(
@@ -57,7 +57,7 @@ fun HomeScreenContent(modifier: Modifier = Modifier) {
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(10.dp) // Standard AppBar height
+                        .height(5.dp) // Standard AppBar height
                 ) {
                     // Left: Menu and Home Text
                     Row(
@@ -94,18 +94,18 @@ fun HomeScreenContent(modifier: Modifier = Modifier) {
         ) {
             // Grid Items
             val items = listOf(
-                GridItem("Product", painterResource(id = R.drawable.home_svg)),
-                GridItem("Inventory", painterResource(id = R.drawable.inventory_svg)),
-                GridItem("Order", painterResource(id = R.drawable.order_svg)),
-                GridItem("Search", painterResource(id = R.drawable.search_svg)),
-                GridItem("Stock Transfer", painterResource(id = R.drawable.stock_transfer_svg)),
-                GridItem("All Report", painterResource(id = R.drawable.report_svg)),
-                GridItem("Quotations", painterResource(id = R.drawable.quotation_svg)),
-                GridItem("Estimate", painterResource(id = R.drawable.estimate_svg)),
-                GridItem("Invoice", painterResource(id = R.drawable.invoice_svg)),
-                GridItem("Sample In", painterResource(id = R.drawable.samplein_svg)),
-                GridItem("Sample Out", painterResource(id = R.drawable.sampleout_svg)),
-                GridItem("Settings", painterResource(id = R.drawable.setting_svg_rfid))
+                GridItem1("Product", painterResource(id = R.drawable.product_gr_svg)),
+                GridItem1("Inventory", painterResource(id = R.drawable.inventory_gr_svg)),
+                GridItem1("Order", painterResource(id = R.drawable.order_gr_svg)),
+                GridItem1("Search", painterResource(id = R.drawable.search_gr_svg)),
+                GridItem1("Stock Transfer", painterResource(id = R.drawable.stock_tr_gr_svg)),
+                GridItem1("All Report", painterResource(id = R.drawable.report_gr_svg)),
+                GridItem1("Quotations", painterResource(id = R.drawable.quotation_gr_svg)),
+                GridItem1("Estimate", painterResource(id = R.drawable.estimate_gr_svg)),
+                GridItem1("Invoice", painterResource(id = R.drawable.inventory_gr_svg)),
+                GridItem1("Sample In", painterResource(id = R.drawable.sample_in_gr_svg)),
+                GridItem1("Sample Out", painterResource(id = R.drawable.sample_out_gr_svg)),
+                GridItem1("Settings", painterResource(id = R.drawable.setting_gr_svg))
             )
 
             LazyVerticalGrid(
@@ -120,7 +120,7 @@ fun HomeScreenContent(modifier: Modifier = Modifier) {
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 items(items) { item ->
-                    HomeGridItem(item = item)
+                    HomeGridItem1(item = item)
                 }
             }
 
@@ -143,26 +143,19 @@ fun HomeScreenContent(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun HomeGridItem(item: GridItem) {
+fun HomeGridItem1(item: GridItem1) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
             .aspectRatio(1f),
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(
-            containerColor = Color.Transparent
-        )
+            containerColor = Color.White // Changed to White background
+        ),
+        elevation = CardDefaults.cardElevation(4.dp) // Optional: add slight elevation if you want a slight shadow
     ) {
         Box(
             modifier = Modifier
-                .background(
-                    Brush.linearGradient(
-                        colors = listOf(
-                            Color(0xFF315BA3), // Red
-                            Color(0xFFA7192E)  // Blue
-                        ),
-                    )
-                )
                 .fillMaxSize()
                 .padding(8.dp),
             contentAlignment = Alignment.Center
@@ -172,15 +165,16 @@ fun HomeGridItem(item: GridItem) {
                 verticalArrangement = Arrangement.Center
             ) {
                 Icon(
-                    painter = item.icon,   // ✅ Correct: painter not imageVector
+                    painter = item.icon,
                     contentDescription = item.label,
-                    tint = Color.White,
+                    tint = Color.Unspecified,
+                  //  tint = Color(0xFF0B37B9), // Optional: you can set icon color if you want (blue)
                     modifier = Modifier.size(36.dp)
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = item.label,
-                    color = Color.White,
+                    color = Color.Black, // Text color changed to Black for visibility
                     fontSize = 12.sp,
                     maxLines = 1
                 )
@@ -189,4 +183,5 @@ fun HomeGridItem(item: GridItem) {
     }
 }
 
-data class GridItem(val label: String, val icon: Painter)
+
+data class GridItem1(val label: String, val icon: Painter)
